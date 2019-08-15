@@ -8,7 +8,7 @@ import java.util.Map;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
-import hp.base.BaseTest;
+import hp.base.BaseCode;
 /**
  * 给定一个字符串数组，将字母异位词组合在一起。字母异位词指字母相同，但排列不同的字符串。
  * 输入: ["eat", "tea", "tan", "ate", "nat", "bat"],
@@ -21,7 +21,7 @@ import hp.base.BaseTest;
  * @author Administrator
  *
  */
-public class groupAnagrams extends BaseTest<String[],List<List<String>>>{
+public class groupAnagrams extends BaseCode<String[],List<List<String>>>{
 
 	@Override
 	public List<List<String>> exceute(String[] obj) {

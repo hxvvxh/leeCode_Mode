@@ -9,12 +9,12 @@ import org.apache.log4j.Logger;
 import hp.Utils.HpUtils;
 
 /**
- * 统一 的测试接口
+ * 统一 的类继承
  * @author Administrator
  *
  */
-public abstract class BaseTest<T,V> implements Base<T,V>{
-	private static Logger log=Logger.getLogger(BaseTest.class);
+public abstract class BaseCode<T,V> implements Base<T,V>{
+	private static Logger log=Logger.getLogger(BaseCode.class);
 	/**
 	 * 数据输出
 	 */
